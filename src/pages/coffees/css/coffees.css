@@ -1,0 +1,122 @@
+section {
+  display: flex;
+  height: calc(100vh - 90px);
+}
+section .content {
+  display: flex;
+  padding-top: 60px;
+  flex-basis: 80%;
+}
+section .coffee-list {
+  padding: 0px 25px;
+  flex-basis: 20%;
+  background-color: #f5f5f5;
+  overflow: auto;
+}
+section .coffee-cell {
+  cursor: pointer;
+  margin: 20px 0px;
+  padding: 10px 5px;
+  border: 2px solid #00704A;
+  border-radius: 5px;
+}
+section .coffee-cell h4 {
+  text-align: center;
+  color: #00704A;
+}
+section .image-container {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+section .image-container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+section .content-container {
+  padding: 0 40px;
+  flex-basis: 60%;
+}
+section .content-container h2 {
+  color: #00704A;
+  font-size: 30px;
+}
+section .content-container p {
+  text-align: justify;
+}
+section .content-container .star {
+  margin-top: 15px;
+  color: rgba(0, 189, 126, 0.3);
+}
+section .content-container .star-selected {
+  color: #00704A;
+}
+section .content-container .coffee-sizes-container {
+  display: flex;
+  margin-top: 20px;
+}
+section .content-container .coffee-sizes-container .coffe-size {
+  border: 2px solid #00704A;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+section .content-container .coffee-sizes-container .coffe-size img {
+  width: 40px;
+}
+section .content-container .price-and-amount {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+section .content-container .price-and-amount h2 {
+  color: #00704A;
+  margin-right: 20px;
+}
+section .content-container .price-and-amount .select-amount-container {
+  background-color: #EAEBEB;
+  border-radius: 10px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+section .content-container .price-and-amount .select-amount-container .icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+section .content-container .price-and-amount .select-amount-container h4 {
+  font-size: 22px;
+  margin: 0 25px;
+}
+section .content-container .buy-buttons-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+section .content-container .buy-buttons-container button {
+  background-color: #00704A;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 25px;
+}
+section .content-container .buy-buttons-container button:focus {
+  outline: 0;
+}
+section .content-container .buy-buttons-container h4 {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=coffees.css.map */

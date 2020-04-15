@@ -1,5 +1,5 @@
 import Home from "./pages/home/Home";
-import Contato from "./pages/contato/Contato";
+import Coffees from "./pages/coffees/Coffees";
 
 const routes = [
     {
@@ -8,8 +8,8 @@ const routes = [
         exact:true
     },
     {
-        path:"/contato",
-        component:Contato,
+        path:"/coffees",
+        component:Coffees,
         exact:true
     }
 ];

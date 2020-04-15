@@ -1,0 +1,46 @@
+$primaryColor:#00704A;
+
+nav{
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .toolbar-itens-container{
+        flex:1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            margin-right: 20px;
+            text-decoration: none;
+            color: rgb(97, 97, 97);
+            font-weight: bold;
+        }
+
+        .selected-link{
+            color: $primaryColor;
+        }
+        
+        a:hover{
+            color: $primaryColor;
+        }
+    }
+
+    .background-search{
+        cursor: pointer;
+        background-color: #EAEBEB;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+}

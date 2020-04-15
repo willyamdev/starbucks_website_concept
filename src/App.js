@@ -1,13 +1,14 @@
 import React from 'react';
 import routes from './routes';
-import { Link, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import './pages/css/global.css';
+import Toolbar from './pages/components/toolbar/Toolbar';
 
 export default function App() {
   return (
     <div>
 
-      <Link to="/">Home</Link>
-      <Link to="/contato">Contato</Link>
+      <Toolbar/>
 
       {routes.map((value, key) => {
         return <Route
@@ -17,7 +18,6 @@ export default function App() {
           exact={value.exact}
         ></Route>
       })}
-
     </div>
   );
 }

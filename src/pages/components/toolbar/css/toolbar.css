@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  padding: 20px 50px;
+  align-items: center;
+}
+nav img {
+  width: 50px;
+  height: 50px;
+}
+nav .toolbar-itens-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .toolbar-itens-container a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #616161;
+  font-weight: bold;
+}
+nav .toolbar-itens-container .selected-link {
+  color: #00704A;
+}
+nav .toolbar-itens-container a:hover {
+  color: #00704A;
+}
+nav .background-search {
+  cursor: pointer;
+  background-color: #EAEBEB;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=toolbar.css.map */
