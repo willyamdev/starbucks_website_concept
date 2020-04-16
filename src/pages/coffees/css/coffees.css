@@ -71,6 +71,9 @@ section .content-container .coffee-sizes-container .coffe-size {
 section .content-container .coffee-sizes-container .coffe-size img {
   width: 40px;
 }
+section .content-container .coffee-sizes-container .coffe-size-selected {
+  background-color: #00704A;
+}
 section .content-container .price-and-amount {
   margin-top: 20px;
   display: flex;

@@ -3,7 +3,7 @@ import './css/coffees.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
-import testeimg from './images/teste.png';
+import testeimg from './images/coffees-icons/blonde-caffee-americano.png';
 
 import coffeSizeSmall from './images/coffee-sizes/coffe-icon-small.png';
 import coffeSizeMedium from './images/coffee-sizes/coffe-icon-medium.png';
@@ -13,7 +13,7 @@ export default function CoffeeContentCell(props) {
   return (
     <div className="content">
       <div className="image-container">
-        <img src={testeimg} alt="ss" />
+        <img src={testeimg} alt="" />
       </div>
       <div className="content-container">
         <h2>{props.coffeeName}</h2>
