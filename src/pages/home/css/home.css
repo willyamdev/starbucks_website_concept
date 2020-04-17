@@ -2,10 +2,32 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  margin: 30px 40px;
+  margin: 30px 80px;
+}
+.content .image-home-container {
+  background-color: #F9F9F9;
 }
 .content .image-home-container img {
   width: 100%;
+}
+.content .image-home-container h3 {
+  text-align: center;
+}
+.content .image-home-container p {
+  margin-top: 20px;
+  text-align: center;
+}
+.content .image-home-container button {
+  cursor: pointer;
+  background-color: #e6e6e6;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 20px;
+  display: block;
+  margin: 20px auto;
+}
+.content .image-home-container button:focus {
+  outline: 0;
 }
 
 /*# sourceMappingURL=home.css.map */

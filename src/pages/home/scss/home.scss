@@ -2,12 +2,36 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    margin: 30px 40px;
+    margin: 30px 80px;
 
     .image-home-container {
+        background-color: #F9F9F9;
         
         img{
             width: 100%;
+        }
+
+        h3{
+            text-align: center;
+        }
+
+        p{
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        button{
+            cursor: pointer;
+            background-color: rgb(230, 230, 230);
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 5px 20px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button:focus{
+            outline: 0;
         }
     }
 }
