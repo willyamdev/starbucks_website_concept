@@ -47,29 +47,29 @@ section {
         padding: 0 40px;
         flex-basis: 60%;
 
-        h2{
+        h2 {
             color: $primaryColor;
             font-size: 30px;
         }
 
-        p{
+        p {
             text-align: justify;
         }
 
-        .star{
+        .star {
             margin-top: 15px;
             color: rgba(0, 189, 126, 0.3);
         }
 
-        .star-selected{
+        .star-selected {
             color: $primaryColor;
         }
 
-        .coffee-sizes-container{
+        .coffee-sizes-container {
             display: flex;
             margin-top: 20px;
-            
-            .coffe-size{
+
+            .coffe-size {
                 border: 2px solid $primaryColor;
                 border-radius: 5px;
                 margin-right: 10px;
@@ -80,27 +80,28 @@ section {
                 align-items: center;
                 cursor: pointer;
 
-                img{
+                img {
                     width: 40px;
                 }
             }
 
-            .coffe-size-selected{
+            .coffe-size-selected {
                 background-color: $primaryColor;
             }
         }
 
-        .price-and-amount{
+        .price-and-amount {
             margin-top: 20px;
             display: flex;
             align-items: center;
 
-            h2{
+            h2 {
+                width: 110px;
                 color: $primaryColor;
-                margin-right: 20px;
+                margin-right: 5px;
             }
 
-            .select-amount-container{
+            .select-amount-container {
                 background-color: #EAEBEB;
                 border-radius: 10px;
                 height: 35px;
@@ -108,24 +109,36 @@ section {
                 align-items: center;
                 padding: 10px;
 
-                .icon{
-                    font-size: 20px;
-                    cursor: pointer;
+                button {
+                    display: flex;
+                    align-items: center;
+                    background: none;
+                    border: none;
+
+                    .icon {
+                        font-size: 20px;
+                        cursor: pointer;
+                    }
                 }
 
-                h4{
+                button:focus {
+                    outline: 0;
+                }
+
+                h4 {
                     font-size: 22px;
-                    margin: 0 25px;
+                    text-align: center;
+                    width: 50px;
                 }
             }
         }
 
-        .buy-buttons-container{
+        .buy-buttons-container {
             margin-top: 20px;
             display: flex;
             align-items: center;
-            
-            button{
+
+            button {
                 background-color: $primaryColor;
                 border: none;
                 padding: 10px 40px;
@@ -137,11 +150,11 @@ section {
                 margin-right: 25px;
             }
 
-            button:focus{
+            button:focus {
                 outline: 0;
             }
 
-            h4{
+            h4 {
                 cursor: pointer;
             }
         }

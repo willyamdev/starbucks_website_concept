@@ -80,8 +80,9 @@ section .content-container .price-and-amount {
   align-items: center;
 }
 section .content-container .price-and-amount h2 {
+  width: 110px;
   color: #00704A;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 section .content-container .price-and-amount .select-amount-container {
   background-color: #EAEBEB;
@@ -91,13 +92,23 @@ section .content-container .price-and-amount .select-amount-container {
   align-items: center;
   padding: 10px;
 }
-section .content-container .price-and-amount .select-amount-container .icon {
+section .content-container .price-and-amount .select-amount-container button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+}
+section .content-container .price-and-amount .select-amount-container button .icon {
   font-size: 20px;
   cursor: pointer;
 }
+section .content-container .price-and-amount .select-amount-container button:focus {
+  outline: 0;
+}
 section .content-container .price-and-amount .select-amount-container h4 {
   font-size: 22px;
-  margin: 0 25px;
+  text-align: center;
+  width: 50px;
 }
 section .content-container .buy-buttons-container {
   margin-top: 20px;
