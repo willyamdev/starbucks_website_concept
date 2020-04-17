@@ -1,0 +1,11 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 30px 40px;
+}
+.content .image-home-container img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=home.css.map */
