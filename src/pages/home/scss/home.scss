@@ -1,8 +1,7 @@
+@import url('./home-responsive.css');
+
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin: 30px 80px;
 
     .image-home-container {
         background-color: #F9F9F9;

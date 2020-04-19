@@ -1,3 +1,4 @@
+@import url("./toolbar-responsive.css");
 nav {
   display: flex;
   padding: 20px 50px;
@@ -7,9 +8,12 @@ nav img {
   width: 50px;
   height: 50px;
 }
+nav .menu-button {
+  font-size: 27px;
+  margin-right: auto;
+}
 nav .toolbar-itens-container {
   flex: 1;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -34,6 +38,34 @@ nav .background-search {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+}
+
+.menu-container {
+  transition: 0.5s;
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  height: 100vh;
+  padding: 20px;
+  left: -300px;
+}
+.menu-container img {
+  width: 55px;
+}
+.menu-container a {
+  text-decoration: none;
+  color: #616161;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0;
+}
+
+.shadow-menu-container {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=toolbar.css.map */
