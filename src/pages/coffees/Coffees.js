@@ -69,6 +69,7 @@ export default function Coffees() {
     setCoffeeDescription(coffee.coffeeDescription);
     setCoffeePrice(coffee.basePrice);
     setCoffeeStars(coffee.stars);
+    window.scrollTo(0,0);
   }
 
   return (

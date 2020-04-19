@@ -6,7 +6,6 @@ import image2 from './images/image2.png';
 
 export default function Home() {
 
-
   function openLink(url) {
     window.open(url, "_blank")
   }

@@ -1,3 +1,5 @@
+@import url('./coffees-responsive.css');
+
 $primaryColor:#00704A;
 
 section {
@@ -14,7 +16,6 @@ section {
         padding: 0px 25px;
         flex-basis: 20%;
         background-color: #f5f5f5;
-        overflow: auto;
     }
 
     .coffee-cell {
@@ -33,7 +34,6 @@ section {
     .image-container {
         flex-basis: 40%;
         display: flex;
-        justify-content: flex-end;
 
         img {
             width: 300px;

@@ -7,6 +7,10 @@
     font-family: 'Baloo Paaji 2', cursive;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #ffffff;
 }
