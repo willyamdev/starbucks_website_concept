@@ -9,6 +9,9 @@ import darkRoastCoffee from './images/coffees-icons/dark-roast coffee.png';
 import cappuccino from './images/coffees-icons/cappuccino.png';
 import espressoconPanna from './images/coffees-icons/espresso-con-panna.png';
 import oatmilkHoneyLatte from './images/coffees-icons/oatmilk-honey-latte.png';
+import hotChocolate from './images/coffees-icons/hot-chocolate.png';
+import hazelnutBiancoLatte from './images/coffees-icons/hazelnut-bianco-latte.png';
+import cocoaCloudMacchiato from './images/coffees-icons/cocoa-cloud-macchiato.png';
 
 export default function Coffees() {
 
@@ -54,6 +57,27 @@ export default function Coffees() {
       coffeeDescription: "Oatmilk and signature espresso are intentionally combined with a hint of honey and a toasted honey topping—a savory tribute to all things sweet and salty.",
       stars: 2,
       basePrice:4.77
+    },
+    {
+      coffeeIcon: hotChocolate,
+      coffeeName: "Hot Chocolate",
+      coffeeDescription: "Steamed milk with vanilla- and chocolate-flavored syrups. Topped with sweetened whipped cream and chocolate-flavored drizzle. A timeless classic made to sweeten your spirits.",
+      stars: 4,
+      basePrice:2.82
+    },
+    {
+      coffeeIcon: hazelnutBiancoLatte,
+      coffeeName: "Hazelnut Bianco Latte",
+      coffeeDescription: "House-made hazelnut-praline-infused milk combined with our small-lot Starbucks Reserve® espresso—a true character of sweetly nut love.",
+      stars: 2,
+      basePrice:3.20
+    },
+    {
+      coffeeIcon: cocoaCloudMacchiato,
+      coffeeName: "Cocoa Cloud Macchiato",
+      coffeeDescription: "Our Cloud Macchiato: light and airy with layers of fluffy foam*, cascading espresso, flavored toffee nut syrup, our signature caramel crosshatch and a mocha drizzle swirl. A take on a whole new way to love your macchiato.",
+      stars: 4,
+      basePrice:6.11
     },
   ]
 
