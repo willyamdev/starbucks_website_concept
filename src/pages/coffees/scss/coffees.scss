@@ -3,8 +3,29 @@
 $primaryColor:#00704A;
 
 section {
-    display: flex;
-    height: calc(100vh - 90px);
+
+    .coffee-content{
+        display: flex;
+        height: calc(100vh - 90px);
+    }
+
+    .coffee-float-button{
+        z-index: 1;
+        width: 65px;
+        height: 65px;
+        position: fixed;
+        right: 30px;
+        bottom: 50px;
+        background-color: $primaryColor;
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+
+        .iconCoffee{
+            color: white;
+            font-size: 22px;
+        }
+    }
 
     .content {
         display: flex;
@@ -13,6 +34,8 @@ section {
     }
 
     .coffee-list {
+        z-index: 2;
+        overflow: auto;
         padding: 0px 25px;
         flex-basis: 20%;
         background-color: #f5f5f5;

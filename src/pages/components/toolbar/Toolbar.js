@@ -51,9 +51,11 @@ export default function Toolbar() {
     if (menuContainerElement.offsetLeft !== 0) {
       menuContainerElement.style.left = "0px";
       shadowMenuElement.style.display = "block";
+      document.body.style.overflow = "hidden";
     } else {
       menuContainerElement.style.left = "-300px";
       shadowMenuElement.style.display = "none";
+      document.body.style.overflow = "auto";
     }
   }
 

@@ -51,6 +51,7 @@ nav{
 }
 
 .menu-container{
+    z-index: 3;
     transition: 0.5s;
     position: absolute;
     background-color: white;
@@ -73,6 +74,7 @@ nav{
 }
 
 .shadow-menu-container{
+    z-index: 2;
     display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
